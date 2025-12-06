@@ -2,8 +2,6 @@
 
 ![Status](https://img.shields.io/badge/Status-Pending-yellow)
 
-**Speaker:** Guest Speaker
-
 **Topic:** The Philosophy of Open Source
 
 > 🚧 **Content Loading...**
