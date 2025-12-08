@@ -5,7 +5,7 @@ A **Version Control System (VCS)** is a tool that helps to *track* and *manage c
 Popular examples include **Git, Source Code Control System (SCCS), Subversion (SVN), CVS, and Perforce.** <br><br><br>
                                
 
-# What is Git? <img src="git.png" alt="Alt text" width="22 " height="22">
+# What is Git? <img src="Images and vids\git.png" alt="Alt text" width="22 " height="22">
 
 * Git is a **distributed** version control system <br>
      
@@ -22,7 +22,7 @@ Popular examples include **Git, Source Code Control System (SCCS), Subversion (S
 
 * Works offline and syncs when needed<br><br><br>
 
-# What is GitHub ? <img src="github.png" alt="Alt text" width="22 " height="22">
+# What is GitHub ? <img src="Images and vids\github.png" alt="Alt text" width="22 " height="22">
 
 * Cloud platform for hosting Git repositories
 
