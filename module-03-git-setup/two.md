@@ -19,21 +19,22 @@ We'll see something like this:
 
 Download from the first link saying ``Click here to download`` and wait for the installation to complete.
 
-<video controls src="Images and vids\Screen Recording 2025-12-06 135526.mp4" title="Title"></video>
+
 
 ## <img src="Images and vids\download.png" alt="Alt text" width="20" height="20"> 3. Run the exe file and follow the process:
 
+* Select the Desktop shortcut int the first pop up to access GitBash easily.
 
-<img src="Images and vids\important.png" alt="Alt text" width="15" height="15"> **Make sure to select VS Code as the default editor**
+* <img src="Images and vids\important.png" alt="Alt text" width="15" height="15"> **Make sure to select VS Code as the default editor** instead of Vim as the course will be conducted through VS Code.
 
-<video controls src="Images and vids\20251206-0845-21.0433858.mp4" title="Title"></video>
+* A video has been uploaded under Images and vids folder named ``installation_instructions.mp4`` to help you in need.
 
-Wait for the installation to complete and click on ``Finish`` .
+<video controls src="Images and vids\installation_instructions.mp4" title="Title"></video>
+
+* Wait for the installation to complete and click on ``Finish`` .
 
 ## <img src="Images and vids\greentick.png" alt="Alt text" width="20" height="20"> 4. Confirming installation:
 
 Use Terminal (For Windows: <img src="Images and vids\windows11.png" alt="Alt text" width="10" height="10">+R then ``cmd.exe``) or GitBash to confirm installation by typing ``git --version``
 
-It should display something like ``git version 2.52.0.windows.1``
-
-<video controls src="Images and vids\Screen Recording 2025-12-06 143902.mp4" title="Title"></video>
+It should display something like ``git version 2.52.0.windows.1``.

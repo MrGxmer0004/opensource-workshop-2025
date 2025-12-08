@@ -45,6 +45,16 @@ code .
 ```
 **Step 3: Branching (The Golden Rule)**
 
+Here we'll learn few more commands related to branching:
+
+* ``git branch`` : This command lists all the branches in the current repository.
+
+* ``git branch bug-fix`` : This command creates a new branch called bug-fix.
+
+* ``git checkout <branch_name>`` or ``git switch <branch_name>``: This command switches to the the mentioned branch.
+
+* ``git switch -c dark-mode`` or ``git checkout -b dark-mode`` : This command creates and switches simultaneously to a new branch called dark-mode. 
+
 🛑 Do not edit the main branch.
 In Open Source, `main` should always match the original project. We do our work in Feature Branches.
 
@@ -69,14 +79,25 @@ git add .
 ```
 git commit -m "Added Ash to contributors list"
 ```
-**Step 5: Pushing (Uploading)**
+
+**Step 5: Merging**
+
+All the changes are made in the the branch add-my-name, now we'll merge this branch with the ``main`` branch.
+
+* Type ``git checkout main`` and press *Enter*.
+
+* Then ``git merge add-my-name`` and press *Enter*.
+
+
+**Step 6: Pushing (Uploading)**
 
 Your changes are currently only on your laptop. Let's send them to your GitHub Fork.
+
 ```
-git push origin add-my-name
+git push <URL-of-YOUR-fork>
 ```
 
-**Step 6: The Pull Request (The "Ask")**
+**Step 7: The Pull Request (The "Ask")**
 
 1. Go to your GitHub repository in the browser.
 
@@ -102,7 +123,7 @@ These are the only commands you need for 90% of your career.
 | **Check** | View Changes | `git status` |
 | **Save** | Stage Files | `git add .` |
 | **Save** | Save Snapshot | `git commit -m "your message"` |
-| **Share** | Upload Code | `git push origin <branch-name>` |
+| **Share** | Upload Code | `git push <url>` |
 
 > **Pro Tip:** If you get stuck, run `git status`. It usually tells you exactly what to do next.
 
