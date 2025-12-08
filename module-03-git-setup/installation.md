@@ -32,7 +32,7 @@ Wait for the installation to complete and click on ``Finish`` .
 
 ## <img src="Images and vids\greentick.png" alt="Alt text" width="20" height="20"> 4. Confirming installation:
 
-Use Terminal (For Windows: <img src="windows11.png" alt="Alt text" width="10" height="10">+R then ``cmd.exe``) or GitBash to confirm installation by typing ``git --version``
+Use Terminal (For Windows: <img src="Images and vids\windows11.png" alt="Alt text" width="10" height="10">+R then ``cmd.exe``) or GitBash to confirm installation by typing ``git --version``
 
 It should display something like ``git version 2.52.0.windows.1``
 
