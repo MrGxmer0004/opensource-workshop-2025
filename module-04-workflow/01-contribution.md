@@ -47,7 +47,7 @@ code .
 
 Here we'll learn few more commands related to branching:
 
-* ``git branch`` : This command lists all the branches in the current repository.
+* ``git branch`` : This command lists all the branches in the current repository and shows the current branch.
 
 * ``git branch bug-fix`` : This command creates a new branch called bug-fix.
 
@@ -127,7 +127,7 @@ These are the only commands you need for 90% of your career.
 | **Check** | View Changes | `git status` |
 | **Save** | Stage Files | `git add .` |
 | **Save** | Save Snapshot | `git commit -m "your message"` |
-| **Share** | Upload Code | `git push <url>` |
+| **Share** | Upload Code | `git push -u origin main` |
 
 > **Pro Tip:** If you get stuck, run `git status`. It usually tells you exactly what to do next.
 
